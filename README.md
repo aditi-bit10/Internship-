@@ -10,7 +10,7 @@ This repository contains the projects and practical tasks completed during my in
 
 <h3>
 <a href="https://expense-tracker-cqfcthfblmgf2ia2xkcyg2.streamlit.app/">
-👉 View Live Streamlit Application 👈
+👉 View Live Expense Tracker Application 👈
 </a>
 </h3>
 
@@ -34,7 +34,7 @@ alt="Streamlit Application Preview" />
 
 ## 📁 Repository Map
 
-The repository contains different Python programs and data files developed during the internship.
+The repository contains different Python programs, data files, and Streamlit applications developed during the internship.
 
 ```text
 📂 Internship
@@ -55,10 +55,13 @@ The repository contains different Python programs and data files developed durin
 │   └── Example of Python exception handling
 │
 ├── 🎈 app.py
-│   └── Main Streamlit web application
+│   └── Streamlit Expense Management Application
 │
 ├── 📊 expenses.csv
 │   └── Expense dataset used by the application
+│
+├── 🌤️ weather-app.py
+│   └── Streamlit Weather Application
 │
 └── 📖 README.md
     └── Project documentation
@@ -143,13 +146,13 @@ A simple Python program demonstrating exception handling using `try` and `except
 
 ---
 
-## 🎈 Streamlit Application
+## 🎈 Streamlit Applications
 
-### 📊 Expense Management Application
+### 📊 1. Expense Management Application
 
 **Main File:** `app.py`
 
-This project includes an interactive Streamlit application for working with expense data.
+This project includes an interactive Streamlit application for managing and working with expense data.
 
 **Features:**
 
@@ -167,23 +170,55 @@ The CSV file contains the expense data used by the application.
 
 ---
 
+### 🌤️ 2. Weather Application
+
+**Main File:** `weather-app.py`
+
+This project includes an interactive **Weather Application** built using Python and Streamlit. The application allows users to enter a city and view weather information through a simple and user-friendly interface.
+
+**Features:**
+
+* 🌍 Search weather by city
+* 🌡️ Display temperature
+* 💧 Display humidity
+* 💨 Display wind speed
+* ☁️ Show current weather conditions
+* 🌤️ Interactive weather information
+* 🎨 User-friendly Streamlit interface
+* ⚡ Real-time application interaction
+* 🌐 Weather API integration
+
+**Key Concepts:**
+
+* 🐍 Python Programming
+* 🎈 Streamlit
+* 🌐 API Integration
+* 🔄 JSON Data Processing
+* 📊 Data Handling
+* 🌡️ Weather Data
+* 🔍 User Input Handling
+
+---
+
 ## 🧰 Technologies Used
 
-| Technology       | Purpose                         |
-| ---------------- | ------------------------------- |
-| 🐍 Python        | Programming and data processing |
-| 🎈 Streamlit     | Web application development     |
-| 📊 Pandas        | Data handling and analysis      |
-| 📄 CSV           | Data storage                    |
-| 📁 File Handling | Reading and processing files    |
-| 🔧 Git           | Version control                 |
-| 🐙 GitHub        | Repository and project hosting  |
+| Technology       | Purpose                                 |
+| ---------------- | --------------------------------------- |
+| 🐍 Python        | Programming and application development |
+| 🎈 Streamlit     | Interactive web application development |
+| 📊 Pandas        | Data handling and analysis              |
+| 📄 CSV           | Expense data storage                    |
+| 🌐 Weather API   | Fetching weather information            |
+| 🔄 JSON          | Processing API responses                |
+| 📁 File Handling | Reading and processing files            |
+| 🔧 Git           | Version control                         |
+| 🐙 GitHub        | Repository and project hosting          |
 
 ---
 
 ## 💻 How to Run Locally
 
-Follow these steps to run the project on your computer.
+Follow these steps to run the projects on your computer.
 
 ### 1. Clone the Repository
 
@@ -220,44 +255,83 @@ source .venv/bin/activate
 ### 5. Install Required Libraries
 
 ```bash
-pip install streamlit pandas matplotlib
+pip install streamlit pandas matplotlib requests
 ```
 
-### 6. Run the Streamlit Application
+### 6. Run the Expense Management Application
 
 ```bash
 streamlit run app.py
 ```
 
-The application will open in your browser.
+### 7. Run the Weather Application
+
+```bash
+streamlit run weather-app.py
+```
+
+The selected application will open in your browser.
 
 ---
 
 ## ☁️ Streamlit Cloud Deployment
 
-The application is deployed using **Streamlit Community Cloud**.
+The Streamlit applications can be deployed using **Streamlit Community Cloud**.
 
-### Steps:
+### Expense Management Application
 
-1. Sign in using your GitHub account.
-2. Select the `Internship` repository.
-3. Select the `main` branch.
-4. Set the main file as:
+**Main file:**
 
 ```text
 app.py
 ```
 
+**Live Application:**
+
+<a href="https://expense-tracker-cqfcthfblmgf2ia2xkcyg2.streamlit.app/">
+👉 Open Expense Tracker
+</a>
+
+### Weather Application
+
+**Main file:**
+
+```text
+weather-app.py
+```
+
+To deploy the Weather Application:
+
+1. Sign in using your GitHub account.
+2. Select the `Internship` repository.
+3. Select the `main` branch.
+4. Select `weather-app.py` as the main file.
 5. Click **Deploy**.
-6. Your Streamlit application will be available online.
+6. The Weather Application will be available online.
 
 ---
 
-## 🌐 Live Application
+## 🌐 Live Applications
 
 <div align="center">
 
-### 👉 [Open Live Streamlit Application](https://expense-tracker-cqfcthfblmgf2ia2xkcyg2.streamlit.app/)
+### 📊 Expense Management Application
+
+<a href="https://expense-tracker-cqfcthfblmgf2ia2xkcyg2.streamlit.app/">
+👉 Open Live Expense Tracker 👈
+</a>
+
+<br /><br />
+
+### 🌤️ Weather Application
+
+<p>
+🚀 Weather Application deployed using Streamlit
+</p>
+
+<a href="https://weather-app-eydjoydcy8darna7cwvvh6.streamlit.app/">
+👉 Open Live Weather App 👈
+</a>
 
 </div>
 
@@ -274,6 +348,9 @@ During this internship, I worked with:
 * ⚠️ Exception Handling
 * 📄 CSV Data
 * 🎈 Streamlit
+* 🌐 API Integration
+* 🔄 JSON Data Processing
+* 🌤️ Weather Data
 * 🐙 Git & GitHub
 * ☁️ Streamlit Cloud Deployment
 
@@ -281,14 +358,18 @@ During this internship, I worked with:
 
 ## 🚀 Future Improvements
 
-Some possible improvements for this project include:
+Some possible improvements for these projects include:
 
 * 📊 Add more data visualizations
 * 🔍 Add search and filtering options
-* 📈 Add expense charts
+* 📈 Add more expense charts
+* 🌤️ Add weather forecast information
+* 📅 Add multi-day weather forecasts
+* 📍 Add location-based weather search
 * 💾 Improve data storage
 * 🎨 Improve the Streamlit UI
 * 🔐 Add better input validation
+* ⚡ Improve API error handling
 
 ---
 
